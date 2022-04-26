@@ -1,0 +1,17 @@
+[source.crates-io]
+replace-with = 'tuna'
+
+[source.tuna]
+registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
+
+
+#[env]
+##PATH={value="$PATH:/Volumes/raspberry_cross_tool_builder/x-tools/aarch64-rpi3-linux-gnu/bin",force = true}
+##SYSROOT="/Volumes/raspberry_cross_tool_builder/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot"
+##LD_LIBRARY_PATH="/Volumes/raspberry_cross_tool_builder/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/10.3.0"
+#
+#[target.aarch64-unknown-linux-gnu]
+#linker = "/Volumes/raspberry_cross_tool_builder/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc"
+##rustflags = [ #"-L", "all=/Volumes/raspberry_cross_tool_builder/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib",
+##    "-L", "/Volumes/raspberry_cross_tool_builder/x-tools/aarch64-rpi3-linux-gnu/gcc/aarch64-rpi3-linux-gnu/10.3.0"
+##]

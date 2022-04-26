@@ -23,3 +23,5 @@ mkdir -p examples
 mkdir -p tools
 
 \cp "${RUNDIR}/template/.gitignore" ./
+
+cp "${RUNDIR}/template/.cargo/config" ./.cargo/
