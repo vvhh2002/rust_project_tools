@@ -15,6 +15,7 @@ cd "${ROOTDIR}" || exit
 
 echo "./3rds all 3rd part components src and lib"
 
+
 mkdir -p 3rds
 mkdir -p doc
 mkdir -p tools
