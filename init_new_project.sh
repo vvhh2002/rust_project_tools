@@ -22,6 +22,7 @@ mkdir -p tools
 mkdir -p .cargo
 mkdir -p examples
 mkdir -p tools
+mkdir -p crates
 
 \cp "${RUNDIR}/template/.gitignore" ./
 
